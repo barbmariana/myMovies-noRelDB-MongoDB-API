@@ -6,11 +6,16 @@ I created this project to study API REST, NoSQL databases and to help me save al
 
 ## Technologies :abacus:
 <ul>
-  <li>Typescript</li>
+  <li>Javascript</li>
   <li>MongoDB</li>
   <li>Express</li>
   <li>React</li>
 </ul>
+
+## How to use :mag_right:
+
+
+## How to use :mag_right:
 
 ```
 cd mongo-api
