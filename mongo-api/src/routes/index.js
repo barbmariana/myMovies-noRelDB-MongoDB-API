@@ -3,6 +3,7 @@ import movies from './moviesRoutes.js'
 
 
 
+
 const routes = (app) => {
     app.route('/').get((req,res) => {
         res.status(200).send({title: "Mongo DB"});
