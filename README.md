@@ -12,8 +12,6 @@ I created this project to study API REST, NoSQL databases and to help me save al
   <li>React</li>
 </ul>
 
-## How to use :mag_right:
-
 
 ## How to use :mag_right:
 
