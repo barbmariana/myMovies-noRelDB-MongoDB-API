@@ -12,4 +12,11 @@ I created this project to study API REST, NoSQL databases and to help me save al
   <li>React</li>
 </ul>
 
+```
+cd mongo-api
+npm install
+//create a .env and put a password
+cd src/config
+//change connection
 
+```
