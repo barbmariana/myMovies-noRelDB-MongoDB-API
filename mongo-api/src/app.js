@@ -1,25 +1,21 @@
 import express from "express";
+import db from './config/dbConnect.js';
+import routes from './routes/index.js'
 
+
+//Conection to the database
+db.on("error", console.log.bind("connection error"));
+db.once("open", () =>{
+    console.log("success connection")
+});
+
+//Starting Express
 const app = express();
+app.use(express.json());
 
-const movies = [
-    {id:1, titulo:"O lado bom da vida"},
-    {id:2, titulo: "Cisne Negro"}
-]
+routes(app);
 
-app.get('/', (req,res) => {
-    res.status(200).send("Mongo API")
-});
 
-app.get('/movies', (req, res) => {
-    res.status(200).json(filmes)
-});
-
-app.post('/movies', (req,res) =>{
-    movies.push(req.body);
-    res.status(201).send("movie add")
-
-});
 
 export default app;
 
